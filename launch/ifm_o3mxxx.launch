@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="ifm_o3mxxx" pkg="ifm_o3mxxx" type="ifm_o3mxxx_node" output="screen">
+        <param name="Port" value="42000" />
+        <param name="IP" value="255.255.255.255" />
+        <param name="OutDepthImageTopic" value="ifm_o3mxxx/depth/raw" />
+        <param name="PointCloudTopic" value="ifm_o3mxxx_pc" />
+        <param name="RawTopic" value="ifm_o3mxxx_raw" />
+        <param name="FrameID" value="world" />
+    </node>
+</launch>
