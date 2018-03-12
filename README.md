@@ -46,7 +46,7 @@ Download or clone the folder into you workspace. Run catkin_make.
 ## TODO
 Only the PointCloud2 information and raw sensor information has been used. The depth image has not been used much(other than visualization), so it should be tested before before you start using it. Also the image interface might need more work(mo calibration etc. is taken into consideration yet).
 
-O3M151 and O3M251 produce object infromation instead of point cloud. These functionalitied could (probably) be added to the driver but currently I do not have such decive at hand.
+O3M151 and O3M251 produce object information instead of point cloud. These functionalities could (probably) be added to the driver but currently I do not have such decive at hand.
   
 ## Acknowledgement
 This driver has been developed at [Tampere University of Technology](http://www.tut.fi/en/home), [Laboratory of Automation and Hydraulics(AUT)](http://www.tut.fi/en/research/research-fields/automation-and-hydraulic-engineering/index.htm)
