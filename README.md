@@ -1,7 +1,7 @@
 # IFM O3Mxxx drivers for ROS
 
 ## Overview
-This package includes the basic drivers for IFM O3Mxxx for publishing Pointcloud2 messges, depth image and raw message with sensor specific information.
+This package includes the basic ROS drivers for IFM O3Mxxx for publishing Pointcloud2 messages, depth image and raw message with sensor specific information. It has been tested with O3M150 and O3M250. The code is based on IFM sample codes for parsing the ethernet based communication data. The data is then repacked into ROS compatible formats. 
 
 ## Installation
 Download or clone the folder into you workspace. Run catkin_make.
@@ -42,5 +42,10 @@ Download or clone the folder into you workspace. Run catkin_make.
 * OutDepthImageTopic (string, default: "ifm_o3mxxx_depth_image")
 * PointCloudTopic (string, default: "ifm_o3mxxx_pc")
 * RawTopic (string, default: "ifm_o3mxxx_raw")
+
+## TODO
+Only the PointCloud2 information and raw sensor information has been used. The depth image has not been used much(other than visualization), so it should be tested before before you start using it. Also the image interface might need more work(mo calibration etc. is taken into consideration yet).
   
+## Acknowledgement
+This driver has been developed at [Tampere University of Technology](http://www.tut.fi/en/home), [Laboratory of Automation and Hydraulics(AUT)](http://www.tut.fi/en/research/research-fields/automation-and-hydraulic-engineering/index.htm)
 
