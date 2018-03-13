@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>ifm_o3mxxx</name>
-  <version>0.0.0</version>
+  <version>1.0.0</version>
   <description>The ifm_o3mxxx package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
