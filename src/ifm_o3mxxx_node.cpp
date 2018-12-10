@@ -325,7 +325,7 @@ int processChannel8(void* buf, uint32_t size)
 
 int main(int argc, char **argv)
 {
-    ros::init(argc, argv, "imf_o3mxxx_node");
+    ros::init(argc, argv, "ifm_o3mxxx_node");
     ros::NodeHandle node;
     ros::NodeHandle node_priv("~");
 
